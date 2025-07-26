@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Prathima R | Portfolio</title>
+  <link rel="stylesheet" href="sytle.css">
+  <script src="https://unpkg.com/feather-icons"></script>
+  <!-- Save & load theme from localStorage -->
+<script>
+  if (localStorage.getItem("theme") === "dark") {
+    document.documentElement.classList.add("dark-mode");
+  }
+</script>
+
+</head>
+
+<body>
+  <header class="header">
+    <nav class="nav">
+      <h1 class="logo">Prathima R</h1>
+      <!--<div class="theme-toggle" onclick="toggleTheme()" title="Toggle Theme">🌙</div>-->
+      <ul class="nav-links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#education">Education</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <li><button id="theme-toggle" class="theme-toggle">🌙</button></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section id="home" class="home-section">
+    <div class="center">
+      <h2>Hello, I’m <span class="highlight">Prathima R❤️</span></h2>
+      <p>Software Developer | Full Stack Developer</p>
+      <a href="https://drive.google.com/file/d/10dUXbo_lGSOQ38YNLIKZNI3JrUXmARMn/view?usp=drivesdk" class="btn" target="_blank">Download CV</a>
+    </div>
+  </section>
+
+  <section id="about" class="section dark">
+    <div class="container about-container">
+      <div class="about-image">
+        <img src="blazers photo.jpeg" alt="" />
+      </div>
+      <div class="about-text">
+        <h3>About Me</h3>
+        <p>
+          I am a passionate and driven student with a strong foundation in Java, HTML, CSS, and JavaScript. With a growing interest in software and web development, I enjoy turning ideas into intuitive and responsive digital solutions. 
+          I continuously strive to enhance my technical skills while staying current with the latest industry trends and tools.
+          In addition to my technical expertise, I bring strong leadership qualities and adaptability, allowing me to collaborate effectively in dynamic team environments and adjust to new challenges quickly. I am committed to lifelong learning and eager to contribute to innovative projects that make a meaningful impact.
+        </p>
+      </div>
+    </div>
+  </section>
+  
+
+  <section id="skills" class="section">
+    <div class="container">
+      <h3>Technical Skills</h3>
+      <div class="grid">
+        <div class="card">Java</div>
+        <div class="card">C</div>
+        <div class="card">HTML</div>
+        <div class="card">CSS</div>
+        <div class="card">MySQL</div>
+        <div class="card">GitHub</div>
+        <div class="card">VS Code</div>
+        <div class="card">MS Excel</div>
+      </div>
+      <h3 style="margin-top: 40px;">Soft Skills</h3>
+      <div class="grid">
+        <div class="card">Leadership</div>
+        <div class="card">Collaboration</div>
+        <div class="card">Adaptability</div>
+        <div class="card">Time Management</div>
+        <div class="card">Reliability</div>
+      </div>
+    </div>
+  </section>
+
+  <section id="projects" class="section dark">
+    <div class="container">
+      <h3>Projects</h3>
+      <div class="grid">
+  
+        <div class="card">
+          <h4>IoT-Based Industrial System for Predictive Maintenance</h4>
+          <p><strong>Tech Stack:</strong> Cloud, Arduino, ESP32</p>
+          <p>
+            This project implements a predictive maintenance system aimed at industrial environments using IoT sensors and cloud technology.
+             Sensors mounted on industrial machines monitor parameters like temperature, vibration, and humidity. 
+            The data collected is sent to a cloud platform for storage and analysis and preventive action before actual breakdowns occur. 
+            The system helps reduce unexpected downtimes, lowers repair costs, and extends equipment life.
+            The project combines electronics and software, demonstrating skills in embedded systems, real-time monitoring, and cloud data integration.
+          </p>
+        </div>
+  
+        <div class="card">
+          <h4>Weather Information System</h4>
+          <p><strong>Tech Stack:</strong> HTML, CSS, JavaScript</p>
+          <p>
+            This Java-based Weather Information System is a console application designed to provide current weather details for selected cities. 
+            It supports both online and offline modes. In online mode, the system connects to a weather API to retrieve real-time data like temperature, humidity, and wind speed. In offline mode, users can simulate weather conditions using local data files. 
+            The project is structured to emphasize object-oriented principles such as encapsulation and abstraction. 
+            It also includes robust error handling and user-friendly prompts to make the experience intuitive. 
+            It’s a great example of combining real-world data with Java concepts.
+          </p>
+        </div>
+  
+        <div class="card">
+          <h4>Personal Finance & Expense Tracker</h4>
+          <p><strong>Tech Stack:</strong> HTML, CSS, JavaScript, MySQL</p>
+          <p>
+            This console-based Java application allows users to securely track and manage their personal expenses. 
+            It includes a login system for secure access, and users can add, update, delete, or view expense records. A monthly budget limit can be set, and the system alerts the user when expenses are close to or exceed this limit. 
+            Expenses are categorized (like food, travel, bills), and summary reports show percentage distribution across categories. 
+            This helps users understand and optimize their spending habits. 
+            The project utilizes core Java concepts such as file I/O, classes, objects, constructors, encapsulation, and loops.
+        </div>
+      </div>
+    </div>
+  </section>
+  
+  
+  <section id="education" class="section">
+    <div class="container">
+      <h3>Education</h3>
+  
+      <div class="education-grid">
+        <div class="edu-box">
+          <h4>B.E. in Electronics & Communication Engineering</h4>
+          <p>Sri Shakthi Institute of Engineering and Technology (2022–2026)</p>
+          <p><strong>CGPA:</strong> 8.31</p>
+        </div>
+  
+        <div class="edu-box">
+          <h4>HSC</h4>
+          <p>Dr. P. G. V. Matric Hr. Sec. School (2022)</p>
+          <p><strong>Percentage:</strong> 83%</p>
+        </div>
+  
+        <div class="edu-box">
+          <h4>SSLC</h4>
+          <p>Dr. P. G. V. Matric Hr. Sec. School (2020)</p>
+          <p><strong>Percentage:</strong> 78.6%</p>
+        </div>
+      </div>
+    </div>
+  </section>  
+
+  <section id="contact" class="section dark">
+    <div class="container">
+      <h3>Contact</h3>
+      <p>📞8754149168</p>
+      <p>📧prathimar22ece@srishakthi.ac.in</p>
+      <p>📍3/86, East Street, Madathur, Chinna Thadagam, Coimbatore - 641108</p>
+      <p>🔗 <a href="https://www.linkedin.com/in/prathima-r-0a8154277" target="_blank">LinkedIn Profile</a></p>
+      <p>🔗 <a href="https://github.com/PrathimaRavikumar05" target="_blank">GitHub Profile</a></p>
+      <form class="form">
+        <input type="text" placeholder="Your Name" required>
+        <input type="email" placeholder="Your Email" required>
+        <textarea placeholder="Your Message" required></textarea>
+        <button type="submit">Send</button>
+      </form>
+    </div>
+  </section>
+
+  <footer class="footer">
+    © 2025 Prathima . All rights reserved.
+  </footer>
+
+  <script>
+    feather.replace();
+  </script>
+  <script>
+    feather.replace();
+  
+    function toggleTheme() {
+      const html = document.documentElement;
+      html.classList.toggle("dark-mode");
+  
+      if (html.classList.contains("dark-mode")) {
+        localStorage.setItem("theme", "dark");
+      } else {
+        localStorage.setItem("theme", "light");
+      }
+  
+      const toggleBtn = document.querySelector(".theme-toggle");
+      toggleBtn.textContent = html.classList.contains("dark-mode") ? "☀️" : "🌙";
+    }
+  
+    window.addEventListener("DOMContentLoaded", () => {
+      const toggleBtn = document.querySelector(".theme-toggle");
+      if (document.documentElement.classList.contains("dark-mode")) {
+        toggleBtn.textContent = "☀️";
+      }
+    });
+  </script>
+  <script>
+    const toggleBtn = document.getElementById('theme-toggle');
+    toggleBtn.addEventListener('click', () => {
+      document.body.classList.toggle('dark-mode');
+    });
+  </script>
+  
+</body>
+
+</html>
